@@ -3,10 +3,17 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		255B79972272965A00674486 /* StockCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255B79962272965A00674486 /* StockCell.swift */; };
+		255FB5592271208900D38FBC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 255FB5582271208900D38FBC /* GoogleService-Info.plist */; };
+		2580F7282271324E00589BCC /* StockDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2580F7272271324E00589BCC /* StockDetailVC.swift */; };
+		2580F72A2271374300589BCC /* Stock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2580F7292271374300589BCC /* Stock.swift */; };
+		2580F72C22713CED00589BCC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2580F72B22713CED00589BCC /* Constants.swift */; };
+		2580F72E22713FCB00589BCC /* StockDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2580F72D22713FCB00589BCC /* StockDetail.swift */; };
+		25BFFC2D7AFDD34D54847A13 /* Pods_TrendUp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38ED4C61EC82B63103349894 /* Pods_TrendUp.framework */; };
 		25D665A622710C37009E42C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D665A522710C37009E42C4 /* AppDelegate.swift */; };
 		25D665A822710C37009E42C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D665A722710C37009E42C4 /* ViewController.swift */; };
 		25D665AB22710C37009E42C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25D665A922710C37009E42C4 /* Main.storyboard */; };
@@ -15,6 +22,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		16454D307DBF71B790FC6F54 /* Pods-TrendUp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrendUp.debug.xcconfig"; path = "Target Support Files/Pods-TrendUp/Pods-TrendUp.debug.xcconfig"; sourceTree = "<group>"; };
+		255B79962272965A00674486 /* StockCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockCell.swift; sourceTree = "<group>"; };
+		255FB5582271208900D38FBC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		2580F7272271324E00589BCC /* StockDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockDetailVC.swift; sourceTree = "<group>"; };
+		2580F7292271374300589BCC /* Stock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stock.swift; sourceTree = "<group>"; };
+		2580F72B22713CED00589BCC /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		2580F72D22713FCB00589BCC /* StockDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockDetail.swift; sourceTree = "<group>"; };
 		25D665A222710C37009E42C4 /* TrendUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrendUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25D665A522710C37009E42C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		25D665A722710C37009E42C4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +36,8 @@
 		25D665AC22710C39009E42C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		25D665AF22710C39009E42C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		25D665B122710C39009E42C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3872E405A7BAC927A9C82B1D /* Pods-TrendUp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrendUp.release.xcconfig"; path = "Target Support Files/Pods-TrendUp/Pods-TrendUp.release.xcconfig"; sourceTree = "<group>"; };
+		38ED4C61EC82B63103349894 /* Pods_TrendUp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrendUp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25BFFC2D7AFDD34D54847A13 /* Pods_TrendUp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +57,8 @@
 			children = (
 				25D665A422710C37009E42C4 /* TrendUp */,
 				25D665A322710C37009E42C4 /* Products */,
+				CE058E1F536EADC52099F476 /* Pods */,
+				67D1E5480638A342CF0FDE99 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +74,36 @@
 			isa = PBXGroup;
 			children = (
 				25D665A522710C37009E42C4 /* AppDelegate.swift */,
+				2580F72B22713CED00589BCC /* Constants.swift */,
+				2580F7292271374300589BCC /* Stock.swift */,
+				2580F72D22713FCB00589BCC /* StockDetail.swift */,
+				255B79962272965A00674486 /* StockCell.swift */,
 				25D665A722710C37009E42C4 /* ViewController.swift */,
+				2580F7272271324E00589BCC /* StockDetailVC.swift */,
 				25D665A922710C37009E42C4 /* Main.storyboard */,
 				25D665AC22710C39009E42C4 /* Assets.xcassets */,
 				25D665AE22710C39009E42C4 /* LaunchScreen.storyboard */,
 				25D665B122710C39009E42C4 /* Info.plist */,
+				255FB5582271208900D38FBC /* GoogleService-Info.plist */,
 			);
 			path = TrendUp;
+			sourceTree = "<group>";
+		};
+		67D1E5480638A342CF0FDE99 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				38ED4C61EC82B63103349894 /* Pods_TrendUp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE058E1F536EADC52099F476 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				16454D307DBF71B790FC6F54 /* Pods-TrendUp.debug.xcconfig */,
+				3872E405A7BAC927A9C82B1D /* Pods-TrendUp.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +113,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 25D665B422710C39009E42C4 /* Build configuration list for PBXNativeTarget "TrendUp" */;
 			buildPhases = (
+				0465815F55C6B125733A32AB /* [CP] Check Pods Manifest.lock */,
 				25D6659E22710C37009E42C4 /* Sources */,
 				25D6659F22710C37009E42C4 /* Frameworks */,
 				25D665A022710C37009E42C4 /* Resources */,
+				4A4F5E4CD358B6377F84205E /* [CP] Embed Pods Frameworks */,
+				78B0418527C48D7E2F397FFF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,6 +168,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				25D665B022710C39009E42C4 /* LaunchScreen.storyboard in Resources */,
+				255FB5592271208900D38FBC /* GoogleService-Info.plist in Resources */,
 				25D665AD22710C39009E42C4 /* Assets.xcassets in Resources */,
 				25D665AB22710C37009E42C4 /* Main.storyboard in Resources */,
 			);
@@ -130,13 +176,77 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0465815F55C6B125733A32AB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TrendUp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4A4F5E4CD358B6377F84205E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TrendUp/Pods-TrendUp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TrendUp/Pods-TrendUp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TrendUp/Pods-TrendUp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		78B0418527C48D7E2F397FFF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TrendUp/Pods-TrendUp-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TrendUp/Pods-TrendUp-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TrendUp/Pods-TrendUp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		25D6659E22710C37009E42C4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				25D665A822710C37009E42C4 /* ViewController.swift in Sources */,
+				2580F7282271324E00589BCC /* StockDetailVC.swift in Sources */,
+				255B79972272965A00674486 /* StockCell.swift in Sources */,
+				2580F72E22713FCB00589BCC /* StockDetail.swift in Sources */,
+				2580F72A2271374300589BCC /* Stock.swift in Sources */,
 				25D665A622710C37009E42C4 /* AppDelegate.swift in Sources */,
+				2580F72C22713CED00589BCC /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +390,7 @@
 		};
 		25D665B522710C39009E42C4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16454D307DBF71B790FC6F54 /* Pods-TrendUp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -292,12 +403,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.mazzaferro.TrendUp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		25D665B622710C39009E42C4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3872E405A7BAC927A9C82B1D /* Pods-TrendUp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -310,7 +422,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.mazzaferro.TrendUp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
