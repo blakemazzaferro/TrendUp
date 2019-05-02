@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+ 
 class StockCell: UITableViewCell {
     
     @IBOutlet weak var cellNicknameLabel: UILabel!

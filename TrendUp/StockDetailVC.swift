@@ -249,5 +249,5 @@ class StockDetailVC: UIViewController {
         }
     }
 }
-
+ 
 

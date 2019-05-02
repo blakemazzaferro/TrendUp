@@ -10,7 +10,7 @@ import UIKit
 import Firebase
 import FirebaseUI
 import GoogleSignIn
-
+ 
 class ViewController: UIViewController {
     
     @IBOutlet weak var dailyPercentageLabel: UILabel!

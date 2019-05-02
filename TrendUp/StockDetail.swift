@@ -9,7 +9,7 @@
 import Foundation
 import SwiftyJSON
 import Alamofire
-
+ 
 class StockDetail {
     
     var stockArray = [Stock]()
